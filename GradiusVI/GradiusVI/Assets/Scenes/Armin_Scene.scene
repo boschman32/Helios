@@ -1,0 +1,186 @@
+{
+    "Type": "Scene",
+    "Scene Name": "Armin_Scene",
+    "Scene Path": "Assets\\Scenes\\Armin_Scene.scene",
+    "Entities": [
+        {
+            "Type": "Entity",
+            "Name": "Entity_10",
+            "entityId": {
+                "Type": "EntityId",
+                "id": 0
+            },
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "id": {
+                        "Type": "id",
+                        "id": 0
+                    },
+                    "World Position 2D": {
+                        "Type": "glmvec2",
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "World Scale 2D": {
+                        "Type": "glmvec2",
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "World Rotation 2D": 0.0,
+                    "Parent": -1,
+                    "Children": []
+                }
+            ],
+            "HasPrefab": false,
+            "PrefabPath": ""
+        },
+        {
+            "Type": "Entity",
+            "Name": "Entity_1",
+            "entityId": {
+                "Type": "EntityId",
+                "id": 1
+            },
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "id": {
+                        "Type": "id",
+                        "id": 0
+                    },
+                    "World Position 2D": {
+                        "Type": "glmvec2",
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "World Scale 2D": {
+                        "Type": "glmvec2",
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "World Rotation 2D": 0.0,
+                    "Parent": -1,
+                    "Children": []
+                }
+            ],
+            "HasPrefab": false,
+            "PrefabPath": ""
+        },
+        {
+            "Type": "Entity",
+            "Name": "Entity_2",
+            "entityId": {
+                "Type": "EntityId",
+                "id": 2
+            },
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "id": {
+                        "Type": "id",
+                        "id": 0
+                    },
+                    "World Position 2D": {
+                        "Type": "glmvec2",
+                        "x": 500.0,
+                        "y": 200.0
+                    },
+                    "World Scale 2D": {
+                        "Type": "glmvec2",
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "World Rotation 2D": 0.0,
+                    "Parent": -1,
+                    "Children": []
+                },
+                {
+                    "Type": "QuadRenderer",
+                    "id": {
+                        "Type": "id",
+                        "id": 1
+                    },
+                    "Origin": {
+                        "Type": "glmvec2",
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "TextureArchive": {
+                        "Type": "ResourceArchive",
+                        "ResourceType": 1,
+                        "ResourceFilename": "./Assets\\Sprites\\Player\\Missile_Bullet.png",
+                        "ResourcePath": "./Assets\\Sprites\\Player\\Missile_Bullet.png",
+                        "ResourceName": "Missile_Bullet.png"
+                    }
+                }
+            ],
+            "HasPrefab": false,
+            "PrefabPath": ""
+        },
+        {
+            "Type": "Entity",
+            "Name": "Entity_3",
+            "entityId": {
+                "Type": "EntityId",
+                "id": 3
+            },
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "id": {
+                        "Type": "id",
+                        "id": 0
+                    },
+                    "World Position 2D": {
+                        "Type": "glmvec2",
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "World Scale 2D": {
+                        "Type": "glmvec2",
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "World Rotation 2D": 0.0,
+                    "Parent": -1,
+                    "Children": []
+                }
+            ],
+            "HasPrefab": false,
+            "PrefabPath": ""
+        },
+        {
+            "Type": "Entity",
+            "Name": "Entity_4",
+            "entityId": {
+                "Type": "EntityId",
+                "id": 4
+            },
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "id": {
+                        "Type": "id",
+                        "id": 0
+                    },
+                    "World Position 2D": {
+                        "Type": "glmvec2",
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "World Scale 2D": {
+                        "Type": "glmvec2",
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "World Rotation 2D": 0.0,
+                    "Parent": -1,
+                    "Children": []
+                }
+            ],
+            "HasPrefab": false,
+            "PrefabPath": ""
+        }
+    ]
+}

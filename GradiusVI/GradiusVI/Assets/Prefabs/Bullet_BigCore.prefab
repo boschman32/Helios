@@ -1,0 +1,107 @@
+{
+    "Type": "Entity",
+    "Name": "Bullet_BigCore",
+    "Enabled": true,
+    "entityId": {
+        "Type": "EntityId",
+        "id": 0
+    },
+    "Components": [
+        {
+            "Type": "Transform",
+            "id": {
+                "Type": "id",
+                "id": 0
+            },
+            "ownerId": {
+                "Type": "EntityId",
+                "id": 0
+            },
+            "enabled": true,
+            "LocalPosition": {
+                "Type": "glmvec3",
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "LocalRotation": {
+                "Type": "glmquat",
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "Scale": {
+                "Type": "glmvec3",
+                "x": 1.600000023841858,
+                "y": 0.20000000298023225,
+                "z": 1.0
+            },
+            "Parent": -1
+        },
+        {
+            "Type": "BigCore Bullet",
+            "id": {
+                "Type": "id",
+                "id": 1
+            },
+            "ownerId": {
+                "Type": "EntityId",
+                "id": 0
+            },
+            "enabled": true,
+            "Bullet Speed": 450.0,
+            "Damage": 1,
+            "Direction": {
+                "Type": "glmvec2",
+                "x": -1.0,
+                "y": 0.0
+            }
+        },
+        {
+            "Type": "Primitive Shape",
+            "id": {
+                "Type": "id",
+                "id": 2
+            },
+            "ownerId": {
+                "Type": "EntityId",
+                "id": 0
+            },
+            "enabled": true,
+            "CurrentShape": "Sphere",
+            "PrimitiveArchive": {
+                "Type": "ResourceArchive",
+                "ResourceType": 1,
+                "ResourceFilename": "Red.png",
+                "ResourcePath": ".\\Assets\\Textures\\Red.png"
+            }
+        },
+        {
+            "Type": "Quad Collider",
+            "id": {
+                "Type": "id",
+                "id": 3
+            },
+            "ownerId": {
+                "Type": "EntityId",
+                "id": 0
+            },
+            "enabled": true,
+            "IsVisible": false,
+            "Size": {
+                "Type": "glmvec2",
+                "x": 32.0,
+                "y": 4.0
+            },
+            "Offset": {
+                "Type": "glmvec2",
+                "x": 0.0,
+                "y": 0.0
+            },
+            "Rotation Offset": 0.0
+        }
+    ],
+    "HasPrefab": true,
+    "PrefabPath": ".\\Assets\\Prefabs\\Bullet_BigCore.prefab"
+}

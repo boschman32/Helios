@@ -1,0 +1,39 @@
+{
+    "build-message" :
+    {
+        "onsucceed" : 
+        {
+            "message" : ":white_check_mark: BUILD SUCCESS :white_check_mark:",
+            "embed_color" : "0x00FF00",
+            "image_urls" : 
+			[
+				"https://i.pinimg.com/originals/d8/e5/b0/d8e5b06dbda243ff8940633a178ddc38.gif",
+                "https://media.giphy.com/media/XreQmk7ETCak0/giphy.gif",
+                "https://media2.giphy.com/media/RrI7LNyepQFSo/giphy.gif",
+                "https://media1.tenor.com/images/c47f90a6286b32d9335dcdaa6e0c3b60/tenor.gif?itemid=7536497",
+                "http://giphygifs.s3.amazonaws.com/media/nXxOjZrbnbRxS/giphy.gif",
+                "https://static.upcoming.nl/static/images/21c1460df8_1552396758_Dit-is-de-enige-geoorloofde-manier-om-te-vertellen-hoe-het-met-je-gaat.gif",
+                "https://i.kym-cdn.com/photos/images/original/000/941/368/c0d.gif",
+				"https://thumbs.gfycat.com/PlumpLimpingDegus-mobile.mp4"
+			]
+        },
+        "onfailed" :
+        {
+            "message" : ":fire: BUILD FAILED :fire:",
+            "embed_color" : "0xFF0000",
+            "image_urls" : 
+			[
+				"https://static.upcoming.nl/static/images/f23bdeda24_1552396774_zeebats-pleur.gif",
+                "https://i.kym-cdn.com/photos/images/original/000/657/705/31d.gif",
+                "https://media0.giphy.com/media/ccRdPf8zWkivm/giphy.gif?cid=790b76112b26ec194f4e8b616c0e1c27ee2fbf2ad4445a56&rid=giphy.gif",
+                "https://media2.giphy.com/media/IfyjWLQMeF6kbG2r0z/giphy.webp?cid=790b7611d4020ada4b3d7db6a8cc354c84e52f18cc8fa0be&rid=giphy.webp",
+                "https://static.upcoming.nl/static/images/4133eda554_1552397353_arie-verkeerd.gif",
+                "https://i.imgur.com/HeUNm7E.gif?noredirect",
+                "https://media3.giphy.com/media/26ybwvTX4DTkwst6U/giphy.gif?cid=790b761145aa48e7e46432d5457110892b8c67861adacf1d&rid=giphy.gif"
+			]
+        }
+    },
+    "discord" : {
+        "webhook_url" : "https://discordapp.com/api/webhooks/624703563108712458/kmpEgVVEo9O7Ys1sEtLxNqwwJAcSOKbHIcMgEZ-jSmK9skZ2NHpDeboL9a8MTAbpXn0x"
+    }
+}

@@ -1,0 +1,677 @@
+{
+    "Type": "Scene",
+    "Scene Name": "Prefab",
+    "Scene Path": "",
+    "Entities": [
+        {
+            "Type": "Entity",
+            "Name": "BigCore (Clone)",
+            "Enabled": true,
+            "entityId": {
+                "Type": "EntityId",
+                "id": 1
+            },
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "id": {
+                        "Type": "id",
+                        "id": 0
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 1
+                    },
+                    "enabled": true,
+                    "LocalPosition": {
+                        "Type": "glmvec3",
+                        "x": 600.0,
+                        "y": 300.0,
+                        "z": 0.0
+                    },
+                    "LocalRotation": {
+                        "Type": "glmquat",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Scale": {
+                        "Type": "glmvec3",
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "Parent": -1
+                },
+                {
+                    "Type": "Polygon Collider",
+                    "id": {
+                        "Type": "id",
+                        "id": 3
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 1
+                    },
+                    "enabled": true,
+                    "IsVisible": false,
+                    "Size": {
+                        "Type": "glmvec2",
+                        "x": 68.0,
+                        "y": 68.0
+                    },
+                    "Offset": {
+                        "Type": "glmvec2",
+                        "x": -15.0,
+                        "y": -35.0
+                    },
+                    "Rotation Offset": 45.0
+                },
+                {
+                    "Type": "Polygon Collider",
+                    "id": {
+                        "Type": "id",
+                        "id": 4
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 1
+                    },
+                    "enabled": true,
+                    "IsVisible": false,
+                    "Size": {
+                        "Type": "glmvec2",
+                        "x": 68.0,
+                        "y": 68.0
+                    },
+                    "Offset": {
+                        "Type": "glmvec2",
+                        "x": -25.0,
+                        "y": 35.0
+                    },
+                    "Rotation Offset": 225.0
+                },
+                {
+                    "Type": "Audio Source",
+                    "id": {
+                        "Type": "id",
+                        "id": 5
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 1
+                    },
+                    "enabled": true,
+                    "Loop": false,
+                    "Stream": false,
+                    "AudioAsset": {
+                        "Type": "AudioAsset",
+                        "Filepath": ".\\Assets\\Sounds\\Player\\LASER.wav"
+                    },
+                    "Decibel Offset": 0.0
+                },
+                {
+                    "Type": "BigCore",
+                    "id": {
+                        "Type": "id",
+                        "id": 6
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 1
+                    },
+                    "enabled": true,
+                    "Health": 100,
+                    "Movement Speed": 75.0
+                },
+                {
+                    "Type": "Weapon Component",
+                    "id": {
+                        "Type": "id",
+                        "id": 7
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 1
+                    },
+                    "enabled": true,
+                    "WeaponData": {
+                        "Type": "WeaponData",
+                        "Weapon Type": "BigCore",
+                        "Reload time": 0.0,
+                        "Max bullets": 1,
+                        "Bullet prefab": {
+                            "Type": "Prefab",
+                            "ResourceArchive": {
+                                "Type": "ResourceArchive",
+                                "ResourceType": 5,
+                                "ResourceFilename": "Bullet_BigCore.prefab",
+                                "ResourcePath": ".\\Assets\\Prefabs\\Bullet_BigCore.prefab"
+                            }
+                        },
+                        "Shoot sound": {
+                            "Type": "AudioAsset",
+                            "Filepath": ""
+                        }
+                    },
+                    "Nozzle": {
+                        "Type": "glmvec3",
+                        "x": -120.0,
+                        "y": -40.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Type": "Weapon Component",
+                    "id": {
+                        "Type": "id",
+                        "id": 9
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 1
+                    },
+                    "enabled": true,
+                    "WeaponData": {
+                        "Type": "WeaponData",
+                        "Weapon Type": "BigCore",
+                        "Reload time": 0.0,
+                        "Max bullets": 1,
+                        "Bullet prefab": {
+                            "Type": "Prefab",
+                            "ResourceArchive": {
+                                "Type": "ResourceArchive",
+                                "ResourceType": 5,
+                                "ResourceFilename": "Bullet_BigCore.prefab",
+                                "ResourcePath": ".\\Assets\\Prefabs\\Bullet_BigCore.prefab"
+                            }
+                        },
+                        "Shoot sound": {
+                            "Type": "AudioAsset",
+                            "Filepath": ""
+                        }
+                    },
+                    "Nozzle": {
+                        "Type": "glmvec3",
+                        "x": -120.0,
+                        "y": 40.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Type": "Weapon Component",
+                    "id": {
+                        "Type": "id",
+                        "id": 10
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 1
+                    },
+                    "enabled": true,
+                    "WeaponData": {
+                        "Type": "WeaponData",
+                        "Weapon Type": "BigCore",
+                        "Reload time": 0.0,
+                        "Max bullets": 1,
+                        "Bullet prefab": {
+                            "Type": "Prefab",
+                            "ResourceArchive": {
+                                "Type": "ResourceArchive",
+                                "ResourceType": 5,
+                                "ResourceFilename": "Bullet_BigCore.prefab",
+                                "ResourcePath": ".\\Assets\\Prefabs\\Bullet_BigCore.prefab"
+                            }
+                        },
+                        "Shoot sound": {
+                            "Type": "AudioAsset",
+                            "Filepath": ""
+                        }
+                    },
+                    "Nozzle": {
+                        "Type": "glmvec3",
+                        "x": -50.0,
+                        "y": -100.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Type": "Weapon Component",
+                    "id": {
+                        "Type": "id",
+                        "id": 11
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 1
+                    },
+                    "enabled": true,
+                    "WeaponData": {
+                        "Type": "WeaponData",
+                        "Weapon Type": "BigCore",
+                        "Reload time": 0.0,
+                        "Max bullets": 1,
+                        "Bullet prefab": {
+                            "Type": "Prefab",
+                            "ResourceArchive": {
+                                "Type": "ResourceArchive",
+                                "ResourceType": 5,
+                                "ResourceFilename": "Bullet_Default.prefab",
+                                "ResourcePath": ".\\Assets\\Prefabs\\Bullet_Default.prefab"
+                            }
+                        },
+                        "Shoot sound": {
+                            "Type": "AudioAsset",
+                            "Filepath": ""
+                        }
+                    },
+                    "Nozzle": {
+                        "Type": "glmvec3",
+                        "x": -50.0,
+                        "y": 100.0,
+                        "z": 0.0
+                    }
+                }
+            ],
+            "HasPrefab": true,
+            "PrefabPath": ".\\Assets\\Prefabs\\BigCore.prefab"
+        },
+        {
+            "Type": "Entity",
+            "Name": "Gate",
+            "Enabled": true,
+            "entityId": {
+                "Type": "EntityId",
+                "id": 2
+            },
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "id": {
+                        "Type": "id",
+                        "id": 0
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 2
+                    },
+                    "enabled": true,
+                    "LocalPosition": {
+                        "Type": "glmvec3",
+                        "x": -70.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "LocalRotation": {
+                        "Type": "glmquat",
+                        "x": -0.7071067690849304,
+                        "y": -0.0,
+                        "z": 0.0,
+                        "w": 0.7071067690849304
+                    },
+                    "Scale": {
+                        "Type": "glmvec3",
+                        "x": 0.5,
+                        "y": 1.0,
+                        "z": 3.0
+                    },
+                    "Parent": 1
+                },
+                {
+                    "Type": "Quad Collider",
+                    "id": {
+                        "Type": "id",
+                        "id": 2
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 2
+                    },
+                    "enabled": true,
+                    "IsVisible": false,
+                    "Size": {
+                        "Type": "glmvec2",
+                        "x": 16.0,
+                        "y": 64.0
+                    },
+                    "Offset": {
+                        "Type": "glmvec2",
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "Rotation Offset": 0.0
+                },
+                {
+                    "Type": "Audio Source",
+                    "id": {
+                        "Type": "id",
+                        "id": 4
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 2
+                    },
+                    "enabled": true,
+                    "Loop": false,
+                    "Stream": false,
+                    "AudioAsset": {
+                        "Type": "AudioAsset",
+                        "Filepath": ".\\Assets\\Sounds\\Misc\\EXPLOSION.wav"
+                    },
+                    "Decibel Offset": 0.0
+                },
+                {
+                    "Type": "BigCoreGate",
+                    "id": {
+                        "Type": "id",
+                        "id": 5
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 2
+                    },
+                    "enabled": true,
+                    "Health": 15,
+                    "Movement Speed": 1.0
+                },
+                {
+                    "Type": "Primitive Shape",
+                    "id": {
+                        "Type": "id",
+                        "id": 7
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 2
+                    },
+                    "enabled": true,
+                    "CurrentShape": "Box",
+                    "PrimitiveArchive": {
+                        "Type": "ResourceArchive",
+                        "ResourceType": 0,
+                        "ResourceFilename": "",
+                        "ResourcePath": ""
+                    }
+                }
+            ],
+            "HasPrefab": false,
+            "PrefabPath": ""
+        },
+        {
+            "Type": "Entity",
+            "Name": "Gate",
+            "Enabled": true,
+            "entityId": {
+                "Type": "EntityId",
+                "id": 3
+            },
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "id": {
+                        "Type": "id",
+                        "id": 0
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 3
+                    },
+                    "enabled": true,
+                    "LocalPosition": {
+                        "Type": "glmvec3",
+                        "x": -100.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "LocalRotation": {
+                        "Type": "glmquat",
+                        "x": -0.7071067690849304,
+                        "y": -0.0,
+                        "z": 0.0,
+                        "w": 0.7071067690849304
+                    },
+                    "Scale": {
+                        "Type": "glmvec3",
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 3.0
+                    },
+                    "Parent": 1
+                },
+                {
+                    "Type": "Quad Collider",
+                    "id": {
+                        "Type": "id",
+                        "id": 2
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 3
+                    },
+                    "enabled": true,
+                    "IsVisible": false,
+                    "Size": {
+                        "Type": "glmvec2",
+                        "x": 16.0,
+                        "y": 64.0
+                    },
+                    "Offset": {
+                        "Type": "glmvec2",
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "Rotation Offset": 0.0
+                },
+                {
+                    "Type": "Audio Source",
+                    "id": {
+                        "Type": "id",
+                        "id": 4
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 3
+                    },
+                    "enabled": true,
+                    "Loop": false,
+                    "Stream": false,
+                    "AudioAsset": {
+                        "Type": "AudioAsset",
+                        "Filepath": ".\\Assets\\Sounds\\Misc\\EXPLOSION.wav"
+                    },
+                    "Decibel Offset": 0.0
+                },
+                {
+                    "Type": "BigCoreGate",
+                    "id": {
+                        "Type": "id",
+                        "id": 5
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 3
+                    },
+                    "enabled": true,
+                    "Health": 15,
+                    "Movement Speed": 1.0
+                },
+                {
+                    "Type": "Primitive Shape",
+                    "id": {
+                        "Type": "id",
+                        "id": 6
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 3
+                    },
+                    "enabled": true,
+                    "CurrentShape": "Box",
+                    "PrimitiveArchive": {
+                        "Type": "ResourceArchive",
+                        "ResourceType": 0,
+                        "ResourceFilename": "",
+                        "ResourcePath": ""
+                    }
+                }
+            ],
+            "HasPrefab": false,
+            "PrefabPath": ""
+        },
+        {
+            "Type": "Entity",
+            "Name": "Core",
+            "Enabled": true,
+            "entityId": {
+                "Type": "EntityId",
+                "id": 4
+            },
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "id": {
+                        "Type": "id",
+                        "id": 0
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 4
+                    },
+                    "enabled": true,
+                    "LocalPosition": {
+                        "Type": "glmvec3",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "LocalRotation": {
+                        "Type": "glmquat",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Scale": {
+                        "Type": "glmvec3",
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "Parent": 1
+                },
+                {
+                    "Type": "Quad Collider",
+                    "id": {
+                        "Type": "id",
+                        "id": 3
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 4
+                    },
+                    "enabled": true,
+                    "IsVisible": false,
+                    "Size": {
+                        "Type": "glmvec2",
+                        "x": 64.0,
+                        "y": 64.0
+                    },
+                    "Offset": {
+                        "Type": "glmvec2",
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "Rotation Offset": 0.0
+                },
+                {
+                    "Type": "BigCoreCore",
+                    "id": {
+                        "Type": "id",
+                        "id": 4
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 4
+                    },
+                    "enabled": true,
+                    "Health": 1,
+                    "Movement Speed": 1.0
+                }
+            ],
+            "HasPrefab": false,
+            "PrefabPath": ""
+        },
+        {
+            "Type": "Entity",
+            "Name": "Model",
+            "Enabled": true,
+            "entityId": {
+                "Type": "EntityId",
+                "id": 5
+            },
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "id": {
+                        "Type": "id",
+                        "id": 0
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 5
+                    },
+                    "enabled": true,
+                    "LocalPosition": {
+                        "Type": "glmvec3",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "LocalRotation": {
+                        "Type": "glmquat",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.7071067690849304,
+                        "w": -0.7071067690849304
+                    },
+                    "Scale": {
+                        "Type": "glmvec3",
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "Parent": 1
+                },
+                {
+                    "Type": "Mesh Renderer",
+                    "id": {
+                        "Type": "id",
+                        "id": 1
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 5
+                    },
+                    "enabled": true,
+                    "MeshAsset": {
+                        "Type": "Mesh Asset",
+                        "Filepath": ".\\Assets\\GLTF\\Core\\Core.gltf"
+                    },
+                    "MaterialAsset": {
+                        "Type": "Material Asset",
+                        "Filepath": ""
+                    },
+                    "TextureArchive": {
+                        "Type": "ResourceArchive",
+                        "ResourceType": 0,
+                        "ResourceFilename": "",
+                        "ResourcePath": ""
+                    }
+                }
+            ],
+            "HasPrefab": false,
+            "PrefabPath": ""
+        }
+    ]
+}

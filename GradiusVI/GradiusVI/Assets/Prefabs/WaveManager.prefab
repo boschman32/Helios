@@ -1,0 +1,203 @@
+{
+    "Type": "Entity",
+    "Name": "WaveManager (Clone)",
+    "Enabled": true,
+    "entityId": {
+        "Type": "EntityId",
+        "id": 0
+    },
+    "Components": [
+        {
+            "Type": "Transform",
+            "id": {
+                "Type": "id",
+                "id": 0
+            },
+            "ownerId": {
+                "Type": "EntityId",
+                "id": 0
+            },
+            "enabled": true,
+            "LocalPosition": {
+                "Type": "glmvec3",
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "LocalRotation": {
+                "Type": "glmquat",
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "Scale": {
+                "Type": "glmvec3",
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Parent": -1
+        },
+        {
+            "Type": "WaveManager",
+            "id": {
+                "Type": "id",
+                "id": 1
+            },
+            "ownerId": {
+                "Type": "EntityId",
+                "id": 0
+            },
+            "enabled": true,
+            "Waves": [
+                {
+                    "Type": "Wave",
+                    "Spawn Time": 5.0,
+                    "Enemy Type": "TurnGear",
+                    "Spawn Amount": 8,
+                    "Can drop power up": true,
+                    "Spawn Position Type": "Bottom",
+                    "Formation Type": "Row"
+                },
+                {
+                    "Type": "Wave",
+                    "Spawn Time": 8.0,
+                    "Enemy Type": "TurnGear",
+                    "Spawn Amount": 8,
+                    "Can drop power up": true,
+                    "Spawn Position Type": "Top",
+                    "Formation Type": "Row"
+                },
+                {
+                    "Type": "Wave",
+                    "Spawn Time": 12.0,
+                    "Enemy Type": "TurnGear",
+                    "Spawn Amount": 5,
+                    "Can drop power up": true,
+                    "Spawn Position Type": "Center",
+                    "Formation Type": "Column"
+                },
+                {
+                    "Type": "Wave",
+                    "Spawn Time": 15.0,
+                    "Enemy Type": "Krang",
+                    "Spawn Amount": 6,
+                    "Can drop power up": true,
+                    "Spawn Position Type": "Bottom",
+                    "Formation Type": "Row"
+                },
+                {
+                    "Type": "Wave",
+                    "Spawn Time": 15.0,
+                    "Enemy Type": "Krang",
+                    "Spawn Amount": 6,
+                    "Can drop power up": true,
+                    "Spawn Position Type": "Top",
+                    "Formation Type": "Row"
+                },
+                {
+                    "Type": "Wave",
+                    "Spawn Time": 15.0,
+                    "Enemy Type": "Krang",
+                    "Spawn Amount": 6,
+                    "Can drop power up": true,
+                    "Spawn Position Type": "Center",
+                    "Formation Type": "Row"
+                },
+                {
+                    "Type": "Wave",
+                    "Spawn Time": 18.0,
+                    "Enemy Type": "Rugal",
+                    "Spawn Amount": 3,
+                    "Can drop power up": false,
+                    "Spawn Position Type": "Center",
+                    "Formation Type": "Arrow"
+                },
+                {
+                    "Type": "Wave",
+                    "Spawn Time": 22.0,
+                    "Enemy Type": "TurnGear",
+                    "Spawn Amount": 6,
+                    "Can drop power up": true,
+                    "Spawn Position Type": "Center",
+                    "Formation Type": "Column"
+                },
+                {
+                    "Type": "Wave",
+                    "Spawn Time": 28.0,
+                    "Enemy Type": "TurnGear",
+                    "Spawn Amount": 5,
+                    "Can drop power up": true,
+                    "Spawn Position Type": "Top",
+                    "Formation Type": "Row"
+                },
+                {
+                    "Type": "Wave",
+                    "Spawn Time": 28.0,
+                    "Enemy Type": "TurnGear",
+                    "Spawn Amount": 7,
+                    "Can drop power up": true,
+                    "Spawn Position Type": "Center",
+                    "Formation Type": "Arrow"
+                },
+                {
+                    "Type": "Wave",
+                    "Spawn Time": 32.0,
+                    "Enemy Type": "Krang",
+                    "Spawn Amount": 5,
+                    "Can drop power up": true,
+                    "Spawn Position Type": "Center",
+                    "Formation Type": "Arrow"
+                },
+                {
+                    "Type": "Wave",
+                    "Spawn Time": 38.0,
+                    "Enemy Type": "BigCore",
+                    "Spawn Amount": 1,
+                    "Can drop power up": false,
+                    "Spawn Position Type": "Center",
+                    "Formation Type": "Row"
+                },
+                {
+                    "Type": "Wave",
+                    "Spawn Time": 43.0,
+                    "Enemy Type": "Rugal",
+                    "Spawn Amount": 1,
+                    "Can drop power up": false,
+                    "Spawn Position Type": "Top",
+                    "Formation Type": "Row"
+                },
+                {
+                    "Type": "Wave",
+                    "Spawn Time": 48.0,
+                    "Enemy Type": "Rugal",
+                    "Spawn Amount": 1,
+                    "Can drop power up": false,
+                    "Spawn Position Type": "Bottom",
+                    "Formation Type": "Row"
+                },
+                {
+                    "Type": "Wave",
+                    "Spawn Time": 52.0,
+                    "Enemy Type": "Rugal",
+                    "Spawn Amount": 1,
+                    "Can drop power up": false,
+                    "Spawn Position Type": "Center",
+                    "Formation Type": "Row"
+                },
+                {
+                    "Type": "Wave",
+                    "Spawn Time": 3.0,
+                    "Enemy Type": "TurnGear",
+                    "Spawn Amount": 5,
+                    "Can drop power up": true,
+                    "Spawn Position Type": "Center",
+                    "Formation Type": "Arrow"
+                }
+            ]
+        }
+    ],
+    "HasPrefab": true,
+    "PrefabPath": ".\\Assets\\Prefabs\\WaveManager.prefab"
+}

@@ -1,0 +1,445 @@
+{
+    "Type": "Scene",
+    "Scene Name": "Prefab",
+    "Scene Path": "",
+    "Entities": [
+        {
+            "Type": "Entity",
+            "Name": "Player (Clone)",
+            "Enabled": true,
+            "entityId": {
+                "Type": "EntityId",
+                "id": 2
+            },
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "id": {
+                        "Type": "id",
+                        "id": 0
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 2
+                    },
+                    "enabled": true,
+                    "LocalPosition": {
+                        "Type": "glmvec3",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "LocalRotation": {
+                        "Type": "glmquat",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Scale": {
+                        "Type": "glmvec3",
+                        "x": 1.5,
+                        "y": 1.5,
+                        "z": 1.0
+                    },
+                    "Parent": -1
+                },
+                {
+                    "Type": "Audio Source",
+                    "id": {
+                        "Type": "id",
+                        "id": 6
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 2
+                    },
+                    "enabled": true,
+                    "Loop": false,
+                    "Stream": false,
+                    "AudioAsset": {
+                        "Type": "AudioAsset",
+                        "Filepath": ""
+                    },
+                    "Decibel Offset": 0.0
+                },
+                {
+                    "Type": "Quad Collider",
+                    "id": {
+                        "Type": "id",
+                        "id": 10
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 2
+                    },
+                    "enabled": true,
+                    "IsVisible": false,
+                    "Size": {
+                        "Type": "glmvec2",
+                        "x": 64.0,
+                        "y": 64.0
+                    },
+                    "Offset": {
+                        "Type": "glmvec2",
+                        "x": 10.0,
+                        "y": 0.0
+                    },
+                    "Rotation Offset": 0.0
+                },
+                {
+                    "Type": "Player",
+                    "id": {
+                        "Type": "id",
+                        "id": 4
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 2
+                    },
+                    "enabled": true,
+                    "Health": 1,
+                    "Movement Speed": 200.0,
+                    "Banking angle": 25.0,
+                    "Banking speed": 65.0
+                },
+                {
+                    "Type": "Weapon Component",
+                    "id": {
+                        "Type": "id",
+                        "id": 13
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 2
+                    },
+                    "enabled": true,
+                    "WeaponData": {
+                        "Type": "WeaponData",
+                        "Weapon Type": "Default",
+                        "Reload time": 0.05000000074505806,
+                        "Max bullets": 4,
+                        "Bullet prefab": {
+                            "Type": "Prefab",
+                            "ResourceArchive": {
+                                "Type": "ResourceArchive",
+                                "ResourceType": 5,
+                                "ResourceFilename": "Bullet_Default.prefab",
+                                "ResourcePath": ".\\Assets\\Prefabs\\Bullet_Default.prefab"
+                            }
+                        },
+                        "Shoot sound": {
+                            "Type": "AudioAsset",
+                            "Filepath": ""
+                        }
+                    },
+                    "Nozzle": {
+                        "Type": "glmvec3",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Type": "Weapon Component",
+                    "id": {
+                        "Type": "id",
+                        "id": 14
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 2
+                    },
+                    "enabled": true,
+                    "WeaponData": {
+                        "Type": "WeaponData",
+                        "Weapon Type": "Double",
+                        "Reload time": 0.05000000074505806,
+                        "Max bullets": 4,
+                        "Bullet prefab": {
+                            "Type": "Prefab",
+                            "ResourceArchive": {
+                                "Type": "ResourceArchive",
+                                "ResourceType": 5,
+                                "ResourceFilename": "Bullet_Double.prefab",
+                                "ResourcePath": ".\\Assets\\Prefabs\\Bullet_Double.prefab"
+                            }
+                        },
+                        "Shoot sound": {
+                            "Type": "AudioAsset",
+                            "Filepath": ""
+                        }
+                    },
+                    "Nozzle": {
+                        "Type": "glmvec3",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Type": "Weapon Component",
+                    "id": {
+                        "Type": "id",
+                        "id": 15
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 2
+                    },
+                    "enabled": true,
+                    "WeaponData": {
+                        "Type": "WeaponData",
+                        "Weapon Type": "Missile",
+                        "Reload time": 1.0,
+                        "Max bullets": 1,
+                        "Bullet prefab": {
+                            "Type": "Prefab",
+                            "ResourceArchive": {
+                                "Type": "ResourceArchive",
+                                "ResourceType": 5,
+                                "ResourceFilename": "Bullet_Missile.prefab",
+                                "ResourcePath": ".\\Assets\\Prefabs\\Bullet_Missile.prefab"
+                            }
+                        },
+                        "Shoot sound": {
+                            "Type": "AudioAsset",
+                            "Filepath": ""
+                        }
+                    },
+                    "Nozzle": {
+                        "Type": "glmvec3",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Type": "PowerUp Meter",
+                    "id": {
+                        "Type": "id",
+                        "id": 16
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 2
+                    },
+                    "enabled": true
+                },
+                {
+                    "Type": "Weapon Component",
+                    "id": {
+                        "Type": "id",
+                        "id": 9
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 2
+                    },
+                    "enabled": true,
+                    "WeaponData": {
+                        "Type": "WeaponData",
+                        "Weapon Type": "Laser",
+                        "Reload time": 1.5,
+                        "Max bullets": 1,
+                        "Bullet prefab": {
+                            "Type": "Prefab",
+                            "ResourceArchive": {
+                                "Type": "ResourceArchive",
+                                "ResourceType": 5,
+                                "ResourceFilename": "Bullet_Laser.prefab",
+                                "ResourcePath": ".\\Assets\\Prefabs\\Bullet_Laser.prefab"
+                            }
+                        },
+                        "Shoot sound": {
+                            "Type": "AudioAsset",
+                            "Filepath": ""
+                        }
+                    },
+                    "Nozzle": {
+                        "Type": "glmvec3",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                }
+            ],
+            "HasPrefab": true,
+            "PrefabPath": ".\\Assets\\Prefabs\\Player.prefab"
+        },
+        {
+            "Type": "Entity",
+            "Name": "Model",
+            "Enabled": true,
+            "entityId": {
+                "Type": "EntityId",
+                "id": 3
+            },
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "id": {
+                        "Type": "id",
+                        "id": 0
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 3
+                    },
+                    "enabled": true,
+                    "LocalPosition": {
+                        "Type": "glmvec3",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "LocalRotation": {
+                        "Type": "glmquat",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.7071067690849304,
+                        "w": -0.7071067690849304
+                    },
+                    "Scale": {
+                        "Type": "glmvec3",
+                        "x": 0.02500000037252903,
+                        "y": 0.02500000037252903,
+                        "z": 0.02500000037252903
+                    },
+                    "Parent": 2
+                },
+                {
+                    "Type": "Mesh Renderer",
+                    "id": {
+                        "Type": "id",
+                        "id": 1
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 3
+                    },
+                    "enabled": true,
+                    "MeshAsset": {
+                        "Type": "Mesh Asset",
+                        "Filepath": ".\\Assets\\GLTF\\XWing\\XWing.gltf"
+                    },
+                    "MaterialAsset": {
+                        "Type": "Material Asset",
+                        "Filepath": ""
+                    },
+                    "TextureArchive": {
+                        "Type": "ResourceArchive",
+                        "ResourceType": 1,
+                        "ResourceFilename": "all_fly_xwing.png",
+                        "ResourcePath": ".\\Assets\\GLTF\\XWing\\all_fly_xwing.png"
+                    }
+                }
+            ],
+            "HasPrefab": false,
+            "PrefabPath": ""
+        },
+        {
+            "Type": "Entity",
+            "Name": "Shield",
+            "Enabled": false,
+            "entityId": {
+                "Type": "EntityId",
+                "id": 4
+            },
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "id": {
+                        "Type": "id",
+                        "id": 0
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 4
+                    },
+                    "enabled": true,
+                    "LocalPosition": {
+                        "Type": "glmvec3",
+                        "x": -15.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "LocalRotation": {
+                        "Type": "glmquat",
+                        "x": -0.7071067690849304,
+                        "y": -0.0,
+                        "z": 0.0,
+                        "w": 0.7071067690849304
+                    },
+                    "Scale": {
+                        "Type": "glmvec3",
+                        "x": 6.0,
+                        "y": 1.0,
+                        "z": 4.0
+                    },
+                    "Parent": 2
+                },
+                {
+                    "Type": "Quad Collider",
+                    "id": {
+                        "Type": "id",
+                        "id": 4
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 4
+                    },
+                    "enabled": true,
+                    "IsVisible": false,
+                    "Size": {
+                        "Type": "glmvec2",
+                        "x": 190.0,
+                        "y": 60.0
+                    },
+                    "Offset": {
+                        "Type": "glmvec2",
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "Rotation Offset": 0.0
+                },
+                {
+                    "Type": "PlayerShieldComponent",
+                    "id": {
+                        "Type": "id",
+                        "id": 5
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 4
+                    },
+                    "enabled": true,
+                    "Max shield health": 3.0,
+                    "Bullet damage to shield": 1.0,
+                    "Direct damage to shield": 1.5
+                },
+                {
+                    "Type": "Primitive Shape",
+                    "id": {
+                        "Type": "id",
+                        "id": 7
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 4
+                    },
+                    "enabled": true,
+                    "CurrentShape": "Plane",
+                    "PrimitiveArchive": {
+                        "Type": "ResourceArchive",
+                        "ResourceType": 1,
+                        "ResourceFilename": "ForceField.png",
+                        "ResourcePath": ".\\Assets\\Sprites\\Player\\ForceField.png"
+                    }
+                }
+            ],
+            "HasPrefab": false,
+            "PrefabPath": ""
+        }
+    ]
+}

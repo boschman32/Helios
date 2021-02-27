@@ -1,0 +1,176 @@
+{
+    "Type": "Scene",
+    "Scene Name": "Prefab",
+    "Scene Path": "",
+    "Entities": [
+        {
+            "Type": "Entity",
+            "Name": "TurnGear (Clone)",
+            "Enabled": true,
+            "entityId": {
+                "Type": "EntityId",
+                "id": 2
+            },
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "id": {
+                        "Type": "id",
+                        "id": 0
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 2
+                    },
+                    "enabled": true,
+                    "LocalPosition": {
+                        "Type": "glmvec3",
+                        "x": 500.0,
+                        "y": 500.0,
+                        "z": 0.0
+                    },
+                    "LocalRotation": {
+                        "Type": "glmquat",
+                        "x": 0.7071067690849304,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.7071067690849304
+                    },
+                    "Scale": {
+                        "Type": "glmvec3",
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.5
+                    },
+                    "Parent": -1
+                },
+                {
+                    "Type": "Circle Collider",
+                    "id": {
+                        "Type": "id",
+                        "id": 3
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 2
+                    },
+                    "enabled": true,
+                    "IsVisible": false,
+                    "Radius": 50.0,
+                    "Offset": {
+                        "Type": "glmvec2",
+                        "x": 0.0,
+                        "y": 0.0
+                    }
+                },
+                {
+                    "Type": "Audio Source",
+                    "id": {
+                        "Type": "id",
+                        "id": 4
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 2
+                    },
+                    "enabled": true,
+                    "Loop": false,
+                    "Stream": false,
+                    "AudioAsset": {
+                        "Type": "AudioAsset",
+                        "Filepath": "./Assets\\Sounds\\Misc\\EXPLOSION.wav"
+                    },
+                    "Decibel Offset": 0.0
+                },
+                {
+                    "Type": "TurnGear",
+                    "id": {
+                        "Type": "id",
+                        "id": 5
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 2
+                    },
+                    "enabled": true,
+                    "Health": 1,
+                    "Movement Speed": 220.0,
+                    "Rotation Speed": 90.0
+                }
+            ],
+            "HasPrefab": true,
+            "PrefabPath": ".\\Assets\\Prefabs\\TurnGear.prefab"
+        },
+        {
+            "Type": "Entity",
+            "Name": "Model",
+            "Enabled": true,
+            "entityId": {
+                "Type": "EntityId",
+                "id": 3
+            },
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "id": {
+                        "Type": "id",
+                        "id": 0
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 3
+                    },
+                    "enabled": true,
+                    "LocalPosition": {
+                        "Type": "glmvec3",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "LocalRotation": {
+                        "Type": "glmquat",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.7071067690849304,
+                        "w": -0.7071067690849304
+                    },
+                    "Scale": {
+                        "Type": "glmvec3",
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Parent": 2
+                },
+                {
+                    "Type": "Mesh Renderer",
+                    "id": {
+                        "Type": "id",
+                        "id": 1
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 3
+                    },
+                    "enabled": true,
+                    "MeshAsset": {
+                        "Type": "Mesh Asset",
+                        "Filepath": ".\\Assets\\GLTF\\TIEbomber\\TIEbomber.gltf"
+                    },
+                    "MaterialAsset": {
+                        "Type": "Material Asset",
+                        "Filepath": ""
+                    },
+                    "TextureArchive": {
+                        "Type": "ResourceArchive",
+                        "ResourceType": 0,
+                        "ResourceFilename": "",
+                        "ResourcePath": ""
+                    }
+                }
+            ],
+            "HasPrefab": false,
+            "PrefabPath": ""
+        }
+    ]
+}

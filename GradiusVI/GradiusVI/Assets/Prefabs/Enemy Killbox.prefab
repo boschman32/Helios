@@ -1,0 +1,81 @@
+{
+    "Type": "Entity",
+    "Name": "Enemy Killbox (Clone)",
+    "Enabled": true,
+    "entityId": {
+        "Type": "EntityId",
+        "id": 0
+    },
+    "Components": [
+        {
+            "Type": "Transform",
+            "id": {
+                "Type": "id",
+                "id": 0
+            },
+            "ownerId": {
+                "Type": "EntityId",
+                "id": 0
+            },
+            "enabled": true,
+            "LocalPosition": {
+                "Type": "glmvec3",
+                "x": -400.0,
+                "y": 400.0,
+                "z": 0.0
+            },
+            "LocalRotation": {
+                "Type": "glmquat",
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "Scale": {
+                "Type": "glmvec3",
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Parent": -1
+        },
+        {
+            "Type": "Quad Collider",
+            "id": {
+                "Type": "id",
+                "id": 1
+            },
+            "ownerId": {
+                "Type": "EntityId",
+                "id": 0
+            },
+            "enabled": true,
+            "IsVisible": false,
+            "Size": {
+                "Type": "glmvec2",
+                "x": 32.0,
+                "y": 1000.0
+            },
+            "Offset": {
+                "Type": "glmvec2",
+                "x": 0.0,
+                "y": 0.0
+            },
+            "Rotation Offset": 0.0
+        },
+        {
+            "Type": "KillBox",
+            "id": {
+                "Type": "id",
+                "id": 2
+            },
+            "ownerId": {
+                "Type": "EntityId",
+                "id": 0
+            },
+            "enabled": true
+        }
+    ],
+    "HasPrefab": true,
+    "PrefabPath": ".\\Assets\\Prefabs\\Enemy Killbox.prefab"
+}

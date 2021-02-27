@@ -1,0 +1,5 @@
+﻿  EmbedingLua.cpp
+D:\LaptopWorkspace\Kyle180049\Personal\EmbedingLua\EmbedingLua\EmbedingLua\EmbedingLua.cpp(38,27): error C2440:  'initializing': cannot convert from 'const char [36]' to 'char *const '
+D:\LaptopWorkspace\Kyle180049\Personal\EmbedingLua\EmbedingLua\EmbedingLua\EmbedingLua.cpp(38,27): message :  Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+D:\LaptopWorkspace\Kyle180049\Personal\EmbedingLua\EmbedingLua\EmbedingLua\EmbedingLua.cpp(38,27): error C2131:  expression did not evaluate to a constant
+D:\LaptopWorkspace\Kyle180049\Personal\EmbedingLua\EmbedingLua\EmbedingLua\EmbedingLua.cpp(38,27): message :  a non-constant (sub-)expression was encountered

@@ -1,0 +1,22 @@
+{
+    "type": "Scene",
+    "m_sceneName": "Test",
+    "m_entitiesInScene": [
+        {
+            "type": "Entity",
+            "m_name": "Player",
+            "entityId": {
+                "type": "EntityID",
+                "id": 0
+            },
+            "components": [
+                {
+                    "type": "classHelios::Transform"
+                },
+                {
+                    "type": "classHelios::TestComponent"
+                }
+            ]
+        }
+    ]
+}

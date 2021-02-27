@@ -1,0 +1,10 @@
+﻿  EmbedingLua.cpp
+EmbedingLua.obj : error LNK2019: unresolved external symbol _lua_close referenced in function _main
+EmbedingLua.obj : error LNK2019: unresolved external symbol _lua_isnumber referenced in function _main
+EmbedingLua.obj : error LNK2019: unresolved external symbol _lua_tonumberx referenced in function _main
+EmbedingLua.obj : error LNK2019: unresolved external symbol _lua_tolstring referenced in function _main
+EmbedingLua.obj : error LNK2019: unresolved external symbol _lua_getglobal referenced in function _main
+EmbedingLua.obj : error LNK2019: unresolved external symbol _lua_pcallk referenced in function _main
+EmbedingLua.obj : error LNK2019: unresolved external symbol _luaL_loadstring referenced in function _main
+EmbedingLua.obj : error LNK2019: unresolved external symbol _luaL_newstate referenced in function _main
+D:\LaptopWorkspace\Kyle180049\Personal\EmbedingLua\EmbedingLua\Debug\EmbedingLua.exe : fatal error LNK1120: 8 unresolved externals

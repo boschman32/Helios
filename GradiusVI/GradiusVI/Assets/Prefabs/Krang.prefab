@@ -1,0 +1,182 @@
+{
+    "Type": "Scene",
+    "Scene Name": "Prefab",
+    "Scene Path": "",
+    "Entities": [
+        {
+            "Type": "Entity",
+            "Name": "Krang (Clone)",
+            "Enabled": true,
+            "entityId": {
+                "Type": "EntityId",
+                "id": 0
+            },
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "id": {
+                        "Type": "id",
+                        "id": 0
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 0
+                    },
+                    "enabled": true,
+                    "LocalPosition": {
+                        "Type": "glmvec3",
+                        "x": 100.0,
+                        "y": 100.0,
+                        "z": 0.0
+                    },
+                    "LocalRotation": {
+                        "Type": "glmquat",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.7071067690849304,
+                        "w": -0.7071067690849304
+                    },
+                    "Scale": {
+                        "Type": "glmvec3",
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "Parent": -1
+                },
+                {
+                    "Type": "Quad Collider",
+                    "id": {
+                        "Type": "id",
+                        "id": 2
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 0
+                    },
+                    "enabled": true,
+                    "IsVisible": false,
+                    "Size": {
+                        "Type": "glmvec2",
+                        "x": 64.0,
+                        "y": 60.0
+                    },
+                    "Offset": {
+                        "Type": "glmvec2",
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "Rotation Offset": 0.0
+                },
+                {
+                    "Type": "Audio Source",
+                    "id": {
+                        "Type": "id",
+                        "id": 3
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 0
+                    },
+                    "enabled": true,
+                    "Loop": false,
+                    "Stream": false,
+                    "AudioAsset": {
+                        "Type": "AudioAsset",
+                        "Filepath": "./Assets\\Sounds\\Misc\\EXPLOSION.wav"
+                    },
+                    "Decibel Offset": 0.0
+                },
+                {
+                    "Type": "Krang",
+                    "id": {
+                        "Type": "id",
+                        "id": 4
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 0
+                    },
+                    "enabled": true,
+                    "Health": 1,
+                    "Movement Speed": 260.0,
+                    "Frequency": 50.0,
+                    "Amplitude": 0.019999999552965165
+                }
+            ],
+            "HasPrefab": true,
+            "PrefabPath": ".\\Assets\\Prefabs\\Krang.prefab"
+        },
+        {
+            "Type": "Entity",
+            "Name": "Model",
+            "Enabled": true,
+            "entityId": {
+                "Type": "EntityId",
+                "id": 1
+            },
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "id": {
+                        "Type": "id",
+                        "id": 0
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 1
+                    },
+                    "enabled": true,
+                    "LocalPosition": {
+                        "Type": "glmvec3",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "LocalRotation": {
+                        "Type": "glmquat",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Scale": {
+                        "Type": "glmvec3",
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "Parent": 0
+                },
+                {
+                    "Type": "Mesh Renderer",
+                    "id": {
+                        "Type": "id",
+                        "id": 1
+                    },
+                    "ownerId": {
+                        "Type": "EntityId",
+                        "id": 1
+                    },
+                    "enabled": true,
+                    "MeshAsset": {
+                        "Type": "Mesh Asset",
+                        "Filepath": ".\\Assets\\GLTF\\TIEinterceptor\\tiefighter.gltf"
+                    },
+                    "MaterialAsset": {
+                        "Type": "Material Asset",
+                        "Filepath": ""
+                    },
+                    "TextureArchive": {
+                        "Type": "ResourceArchive",
+                        "ResourceType": 0,
+                        "ResourceFilename": "",
+                        "ResourcePath": ""
+                    }
+                }
+            ],
+            "HasPrefab": false,
+            "PrefabPath": ""
+        }
+    ]
+}
